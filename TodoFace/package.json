@@ -1,0 +1,40 @@
+{
+  "name": "todobd-vue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.10.2",
+    "@tsconfig/node22": "^22.0.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "npm-run-all2": "^7.0.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.3", 
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5",
+    "vue-tsc": "^2.1.10"
+  },
+  "keywords": []
+}
